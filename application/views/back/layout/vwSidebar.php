@@ -58,6 +58,11 @@
 					<li class='<?php echo $pg == 'arus_buku' ? 'active' : '' ?>'><a href="<?php echo site_url('p/arus_buku')?>"><i class="fa fa-angle-double-right"></i> Arus Stok Buku</a></li>
 				</ul>
 			</li>
+			<li class="<?php echo $pg == 'setting' ? 'active' : '' ?>" >
+                <a href="<?php echo site_url('setting') ?>">
+                    <i class="fa fa-gear"></i> <span>SETTING</span>
+                </a>
+            </li>
         </ul>
     </section>
 </aside>

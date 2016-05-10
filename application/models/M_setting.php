@@ -8,4 +8,8 @@ class M_setting extends CI_Model {
 		return $query->row_array();
 		$query->free_result();
 	}
+
+	function getUpdate($data){
+		return $this->db->set($data)->update("table_setting");
+	}
 }
