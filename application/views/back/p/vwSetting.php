@@ -5,7 +5,7 @@
 <section class="content-header">
     <h1>
         Setting
-        <small>Setting Perpustakaan</small>
+         <small>Setting Perpustakaan</small>
     </h1>
 	<ol class="breadcrumb">
     <li><a href="<?php echo base_url('dashboard')?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
